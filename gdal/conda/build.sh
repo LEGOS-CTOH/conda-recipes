@@ -21,7 +21,7 @@ CPPFLAGS="-I$PREFIX/include" LDFLAGS="-L$PREFIX/lib" \
 --with-python
 
 
-make
+make -j8
 make install
 
 # Copy data files 
